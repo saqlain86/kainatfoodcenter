@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@300&family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img class="logo" src="./WhatsApp_Image_2023-11-01_at_05.13.42_dc1fa842-removebg-preview.png">
+
+        <ul class="link-containers  ">
+          <li class="link-items"><a href="./index.html" class="links">Home</a></li>
+          <li class="link-items"><a href="./menu.html" class="links">Menu</a></li>
+          <li class="link-items"><a href="./order.html" class="links">Order</a></li>
+          <li class="link-items"><a href="./about.html" class="links">About Us</a></li>
+          
+        </ul>
+        <div class="nav-extras">
+          <div class="search">
+            <input
+              type="text"
+              class="search-box"
+              placeholder="search Restaurants,Cuisine....."
+            />
+            <button class="search-btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+
+          <a href="./order.html" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+
+<div class="nav-toggler ">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+        </div>
+      </nav>
+      <main id="hero-section">
+        <div class="hero-content">
+          <h1 class="hero-heading">Eat the best</h1>
+          <p class="hero-line">
+            Explore and understand the culture more by tasting the amazing
+            dishes of that culture
+          </p>
+
+          <div class="search location">
+            <input
+              type="text"
+              class="search-box"
+              placeholder="search Restaurants,Cuisine....."
+            />
+            <button class="search-btn locate-btn">
+              <i class="fa-solid fa-location-crosshairs"></i>
+            </button>
+          </div>
+
+          <div class="hero-action-btn-container">
+            <a href="./order.html" ><button class="btn" >Order Food</button></a>
+            <p class="or">or</p>
+            <button class="btn transparent">Make reservation</button>
+          </div>
+        </div>
+
+        <div class="hero-img-container">
+          <div class="background-ele" data-aos="fade-in" data-aos-delay="700">
+            <div class="ellipse"></div>
+            <div class="ellipse"></div>
+            <div class="ellipse"></div>
+          </div>
+          <div class="forground-elements">
+            <img src="./hero-biryani.png"  data-aos="zoom-in"  data-aos-delay="0" alt="" class="hero-img" />
+            <img src="./hero-burger (5).png"  data-aos="zoom-in" data-aos-delay="150"  alt="" class="hero-img" />
+            <img src="./3-spice-chicken-shami-kabab-recipe-main-photo-removebg-preview.png"  data-aos="zoom-in" data-aos-delay="300"  alt="" class="hero-img" />
+
+            <div class="review-box" data-aos="zoom-in"  data-aos-delay="450">
+              <div class="reviewer-info" data-aos="zoom-out"  data-aos-delay="600">
+                <img src="./user-1.png" alt="" class="reviewer-img" />
+                <div class="reviewer">
+                  <div class="reviewer-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <p>4.5</p>
+                  </div>
+                  <h2 class="reviewer-name">Arik</h2>
+                </div>
+              </div>
+              <div class="reviewer-body" data-aos="zoom-out"  data-aos-delay="650">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="review">
+                  The food is very good and delicious and tasty.The service was
+                  very fast.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </header>
+
+    <section id="Restaurants-section">
+      <div class="section">
+        <div class="food-image-container">
+          <div class="circle">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="circle">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="food-img-animation-wrapper" data-aos="fade">
+            <img src="./pngtree-afgani-pulao-with-charcoal-chicken-white-transparent-png-image_9121922-removebg-preview.png" class="food-img" alt="" />
+            <img src="./food-2.png" class="food-img" alt="" />
+            <img src="./food-3.png" class="food-img" alt="" />
+            <img src="./food-4.png" class="food-img" alt="" />
+            <img src="./food-5.png" class="food-img" alt="" />
+            <img src="./food-6.png" class="food-img" alt="" />
+            <img src="./food-7.png" class="food-img" alt="" />
+          </div>
+        </div>
+
+        <div class="section-detail">
+          <span class="section-highlight">From professional chef</span>
+          <p class="section-title">1000+</p>
+          <p class="section-info">
+            Order from our 1000+ food and beverages menu. Food for every taste
+            amd mood.
+          </p>
+
+          <a href="./order.html"><button class="btn">Order food</button></a>
+        </div>
+      </div>
+
+      <div class="Restaurants-container">
+        <div class="Restaurant">
+          <p class="discount">50% Off</p>
+          <div class="Restaurant-thumbnail">
+            <img src="./Instant-Pot-Khao-Suey-L1-Paint-the-Kitchen-Red-scaled.jpg" class="Restaurants-img" alt="" />
+          </div>
+          <div class="Restaurant-body">
+            <h3 class="Restaurant-name">Kainat food center</h3>
+            <p class="menu">Kadhi Khousa</p>
+            <p class="place">karachi</p>
+            <span class="rating">4.5<i class="fa-solid fa-star"></i></span>
+          </div>
+        </div>
+        <div class="Restaurant">
+          <div class="Restaurant-thumbnail">
+            <img src="./Shemins-Butter-Chicken-LR.jpg" class="Restaurants-img" alt="" />
+          </div>
+          <div class="Restaurant-body">
+            <h3 class="Restaurant-name">Kainat food center</h3>
+            <p class="menu">Tandoori Chicken</p>
+            <p class="place">karachi</p>
+            <span class="rating">4.3<i class="fa-solid fa-star"></i></span>
+          </div>
+        </div>
+        <div class="Restaurant">
+          <p class="discount">50% Off</p>
+          <div class="Restaurant-thumbnail">
+            <img src="./1-22.jpg" class="Restaurants-img" alt="" />
+          </div>
+          <div class="Restaurant-body">
+            <h3 class="Restaurant-name">Kainat food center</h3>
+            <p class="menu">Bihari Kabab</p>
+            <p class="place">karachi</p>
+            <span class="rating">4.3<i class="fa-solid fa-star"></i></span>
+          </div>
+        </div>
+        <div class="Restaurant">
+          <div class="Restaurant-thumbnail">
+            <img src="./8634.jpg" class="Restaurants-img" alt="" />
+          </div>
+          <div class="Restaurant-body">
+            <h3 class="Restaurant-name">Kainat food center</h3>
+            <p class="menu">Club Sandwich</p>
+            <p class="place">karachi</p>
+            <span class="rating">4.3<i class="fa-solid fa-star"></i></span>
+          </div>
+        </div>
+        <div class="Restaurant">
+          <div class="Restaurant-thumbnail">
+            <img src="./Original-Pakistani-Chicken-Tikka-Recipe.webp" class="Restaurants-img" alt="" />
+          </div>
+          <div class="Restaurant-body">
+            <h3 class="Restaurant-name">Kainat food center</h3>
+            <p class="menu">Chicken Tikka</p>
+            <p class="place">karachi</p>
+            <span class="rating">4.3<i class="fa-solid fa-star"></i></span>
+          </div>
+        </div>
+        <div class="Restaurant">
+          <p class="discount">50% Off</p>
+          <div class="Restaurant-thumbnail">
+            <img src="./Chicken-Karahi_1.jpg" class="Restaurants-img" alt="" />
+          </div>
+          <div class="Restaurant-body">
+            <h3 class="Restaurant-name">Kainat food center</h3>
+            <p class="menu">Chicken Karahi</p>
+            <p class="place">karachi</p>
+            <span class="rating">4.3<i class="fa-solid fa-star"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-section">
+      <div class="about-us-review-container"  data-aos="zoom-in-up">
+        <div class="circle"></div>
+
+        <img src="./pizza-pan.png" class="pizza-pan-img" alt="" />
+
+        <div class="reviews-container">
+          <div class="review-wrapper active">
+            <img src="./user-5.png" alt="" class="reviewer-img" />
+            <div class="reviewer-box">
+              <div class="reviewer-info">
+                <div class="reviewer">
+                  <div class="reviewer-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <p>4.5</p>
+                  </div>
+                  <h2 class="reviewer-name">Saraah</h2>
+                </div>
+              </div>
+              <div class="reviewer-body">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="review">
+                  The food is very good and delicious and tasty.The service was
+                  very fast.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-wrapper" style="--aos-delay: 250ms;">
+            <img src="./user-4.png" alt="" class="reviewer-img" />
+            <div class="reviewer-box">
+              <div class="reviewer-info">
+                <div class="reviewer">
+                  <div class="reviewer-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <p>4.5</p>
+                  </div>
+                  <h2 class="reviewer-name">arsalan</h2>
+                </div>
+              </div>
+              <div class="reviewer-body">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="review">
+                  The food is very good and delicious and tasty.The service was
+                  very fast.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-wrapper"  style="--aos-delay: 300ms;">
+            <img src="./user-3.png" alt="" class="reviewer-img" />
+            <div class="reviewer-box">
+              <div class="reviewer-info">
+                <div class="reviewer">
+                  <div class="reviewer-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <p>4.5</p>
+                  </div>
+                  <h2 class="reviewer-name">taqi</h2>
+                </div>
+              </div>
+              <div class="reviewer-body">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="review">
+                  The food is very good and delicious and tasty.The service was
+                  very fast.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-wrapper"  style="--aos-delay: 350ms;">
+            <img src="./user-2.png" alt="" class="reviewer-img" />
+            <div class="reviewer-box">
+              <div class="reviewer-info">
+                <div class="reviewer">
+                  <div class="reviewer-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <p>4.5</p>
+                  </div>
+                  <h2 class="reviewer-name">hussain</h2>
+                </div>
+              </div>
+              <div class="reviewer-body">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="review">
+                  The food is very good and delicious and tasty.The service was
+                  very fast.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-wrapper"  style="--aos-delay: 400ms;">
+            <img src="./user-1.png" alt="" class="reviewer-img" />
+            <div class="reviewer-box">
+              <div class="reviewer-info">
+                <div class="reviewer">
+                  <div class="reviewer-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <p>4.5</p>
+                  </div>
+                  <h2 class="reviewer-name">atik</h2>
+                </div>
+              </div>
+              <div class="reviewer-body">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="review">
+                  The food is very good and delicious and tasty.The service was
+                  very fast.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about">
+        <h2 class="about-title">Why Us??</h2>
+
+        <p class="about-info">
+          we serve the best in taste.Our customer is our number 1 priority .See
+          what others think about us.
+        </p>
+
+        <div class="services-container">
+          <div class="service">
+            <div class="service-title">
+              <img src="./fastest-delivery.png" class="service-img" alt="" />
+              <h3 class="service-name">Fastest Delivery</h3>
+            </div>
+            <p class="service-detail">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Quisquam, ullam.
+            </p>
+          </div>
+          <div class="service">
+            <div class="service-title">
+              <img src="./best-prices.png" class="service-img" alt="" />
+              <h3 class="service-name">Best prices</h3>
+            </div>
+            <p class="service-detail">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Quisquam, ullam.
+            </p>
+          </div>
+
+          <div class="service">
+            <div class="service-title">
+              <img src="./20+ restaurant.png" class="service-img" alt="" />
+              <h3 class="service-name">Home restaurant</h3>
+            </div>
+            <p class="service-detail">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Quisquam, ullam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq-section">
+      <h1 class="section-title">Frequently Ask Questions</h1>
+
+      <div class="faq">
+        <div class="question-box">
+          <h3 class="question">How can I cancel my order ?</h3>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="answer-box">
+          <p class="answer">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus veniam nam nihil error amet numquam rem quidem! Quis voluptatibus illo quae esse ipsam tempora!</p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="question-box">
+          <h3 class="question">How can I change delivery address after order placement ?</h3>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="answer-box">
+          <p class="answer">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus veniam nam nihil error amet numquam rem quidem! Quis voluptatibus illo quae esse ipsam tempora!</p>
+        </div>
+      </div>
+
+
+      <div class="faq">
+        <div class="question-box">
+          <h3 class="question">How can I contact my delivery person ?</h3>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="answer-box">
+          <p class="answer">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus veniam nam nihil error amet numquam rem quidem! Quis voluptatibus illo quae esse ipsam tempora!</p>
+        </div>
+      </div>
+
+
+      <div class="faq">
+        <div class="question-box">
+          <h3 class="question">My payment is declining.What should I do?</h3>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="answer-box">
+          <p class="answer">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus veniam nam nihil error amet numquam rem quidem! Quis voluptatibus illo quae esse ipsam tempora!</p>
+        </div>
+      </div>
+
+
+
+
+    </section>
+
+
+    <section id="download-app-section">
+
+      <div class="section">
+      <div class="download-app-image-container">
+<div class="pulse" data-aos="zoom-in-up">
+<div class="circle pulse-animate"></div>
+<div class="circle"></div>
+</div>
+<img src="./app.png"  data-aos="phone-mockup-fade"  data-aos-delay="200" class="phone-mockup" alt="">
+     </div>
+
+
+  <div class="section-detail">
+    <span class="section-highlight">Download our app to stay update</span>
+    <p class="section-title">Make orders from your phone by contact us</p>
+    <p class="section-info">
+      Get extra feature on app including tracking order,managing account and much more after developing app.  
+    </p>
+
+  
+
+
+    <div class="download-btn-group">
+<a href="#" class="download-btn"><img src="./play-store.png" alt=""></a>
+<a href="#" class="download-btn"><img src="./app-store.png" alt=""></a>
+    </div>
+
+  </div>
+    
+</div>
+</div>
+    </section>
+
+    <div class="discount-banner"  data-aos="flip-up">
+<div class="section-detail">
+<h1 class="section-title">Get an extra 20% off on your first order</h1>
+<p class="section-info">use this code during checkout</p>
+<p class="discount-code">WELCOME20</p>
+</div>
+    
+
+    <div class="dish-slide">
+<img src="./discount-food-slider-1.png" alt="">
+
+<img src="./hero-pizza.png" alt="">
+<img src="./hero-burger (5).png" alt="">
+    </div>
+  </div>
+
+
+  <section id="footer">
+
+<div class="company-info">
+<img src="./WhatsApp_Image_2023-11-01_at_05.13.42_dc1fa842-removebg-preview.png" class="logo" alt="">
+
+<div class="social-links"> 
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+</div>
+
+<div class="download-btn-group">
+  <a href="#" class="download-btn"><img src="./play-store.png" alt=""></a>
+  <a href="#" class="download-btn"><img src="./app-store.png" alt=""></a>
+      </div>
+
+</div>
+
+
+<div class="useful-links footer-links-container">
+<h5 class="footer-links-title">Useful Links</h5>
+<a href="" class="footer-links">Menu</a>
+<a href="" class="footer-links">Restaurant</a>
+<a href="" class="footer-links">Your Orders</a>
+<a href="" class="footer-links">Track Orders</a>
+<a href="" class="footer-links">Support</a>
+</div>
+
+
+<div class="information footer-links-container">
+  <h5 class="footer-links-title">Information</h5>
+  <a href="" class="footer-links">About Us</a>
+  <a href="" class="footer-links">Privacy Policy</a>
+  <a href="" class="footer-links">Terms & Policy</a>
+  <a href="" class="footer-links">What info we collect ?</a>
+  </div>
+
+
+  <div class="contact footer-links-container">
+    <h5 class="footer-links-title">Contact Us</h5>
+    <p class="footer-text">Our restaurant is located on soldier bazar at home,karachi</p>
+    <p class="footer-text">Phone - 03350033972</p>
+    <p class="footer-text">Email - samreenfatimasf1988@gmail.com</p>
+    </div>
+
+
+
+    <p class="copyright">Designed by Saqlain Web Developer</p>
+
+
+  </section>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
